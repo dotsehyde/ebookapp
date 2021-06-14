@@ -38,6 +38,7 @@ class MyApp extends StatelessWidget {
           theme: themeData(appProvider.theme),
           darkTheme: themeData(ThemeConfig.darkTheme),
           home: Splash(),
+          actions: {},
         );
       },
     );
